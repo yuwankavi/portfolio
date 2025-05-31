@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-gray-800 bg-gray-50;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+  
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold text-center mb-16;
+  }
+
+  .section-title span {
+    @apply text-yellow-500;
+  }
+
+  .accent-text {
+    @apply text-yellow-500;
+  }
+
+  .btn {
+    @apply px-6 py-3 rounded-md font-medium transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-yellow-500 text-slate-900 hover:bg-yellow-600;
+  }
+
+  .service-card {
+    @apply bg-slate-900 rounded-lg p-8 flex flex-col items-center text-center h-full transition-transform duration-300 hover:-translate-y-2;
+  }
+
+  .input-field {
+    @apply w-full p-4 bg-slate-800 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500;
+  }
+}
