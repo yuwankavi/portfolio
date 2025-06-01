@@ -40,7 +40,7 @@ const About = () => {
   alt="Professional portrait"
   className="w-full h-full object-cover"
 />
-            </div>
+npm run <i class="fa fa-deviantart" aria-hidden="true"></i>            </div>
           </div>
           
           <div>

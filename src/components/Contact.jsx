@@ -18,10 +18,10 @@ const Contact = () => {
     e.preventDefault();
     // TODO: Replace the following with your actual EmailJS service/template/user IDs
     emailjs.send(
-      'service_2002',         // Your Service ID
-      'template_zifa6wh',      // Your Template ID
+      'service_qlg5gk8',         // Your Service ID
+      'template_4f25buc',      // Your Template ID
       formData,
-      'fDzsWVAnFoTTQe8Yz'     // Your User ID (Public Key)
+      'KBheK6YrUeSWQ7Jmw'     // Your User ID (Public Key)
     )
     .then((result) => {
         alert('Thank you for your message! I will get back to you soon.');
