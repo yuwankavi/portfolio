@@ -81,6 +81,14 @@ const Portfolio = () => {
                   alt={selectedProject.title}
                   className="w-full h-full object-cover"
                 />
+                <div className="flex gap-2 mt-2 justify-center">
+                  {selectedProject.title === 'Real Event Ticket System' && (
+                    <a href="https://github.com/yuwankavi/TicketSystemCLI" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">GitHub</a>
+                  )}
+                  {selectedProject.title === 'AI Chatbot for Document Summarization' && (
+                    <a href="https://github.com/BMSz88/DocuAidFront" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">GitHub</a>
+                  )}
+                </div>
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-2">{selectedProject.title}</h3>

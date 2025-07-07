@@ -35,12 +35,16 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <div className="aspect-[3/4] bg-slate-200 rounded-lg overflow-hidden">
-            <img 
-  src={yuwanImg}
-  alt="Professional portrait"
-  className="w-full h-full object-cover"
-/>
-npm run <i class="fa fa-deviantart" aria-hidden="true"></i>            </div>
+              <img 
+                src={yuwanImg}
+                alt="Professional portrait"
+                className="w-full h-full object-cover"
+              />
+              <div className="flex gap-2 mt-2">
+                <a href="https://github.com/yuwankavi/TicketSystemCLI" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">TicketSystemCLI Repo</a>
+                <a href="https://github.com/BMSz88/DoucAid" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">DoucAid Repo</a>
+              </div>
+            </div>
           </div>
           
           <div>
